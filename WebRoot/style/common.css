@@ -1,0 +1,27 @@
+.border-right-none{
+	border-right: none;
+}
+.border-right{
+	border-bottom: none;
+	border-left: none;
+	border-top: none;
+}
+.icon-theme{
+	background:url('../js/jquery-easyui/themes/icons/1_open.png') no-repeat center center;
+}
+.icon-main{
+	background:url('../js/jquery-easyui/themes/icons/1_close.png') no-repeat center center;
+}
+.icon-color-default{
+	background:url('../images/themes/color/default.png')  no-repeat center center;
+}
+.icon-color-gray{
+	background:url('../images/themes/color/gray.png')  no-repeat center center;
+}
+.icon-color-black{
+	background:url('../images/themes/color/black.png')  no-repeat center center;
+}
+.icon-logo{
+	background:url('../images/logo.png') no-repeat center center;
+}
+

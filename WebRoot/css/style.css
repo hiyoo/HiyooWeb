@@ -1,0 +1,100 @@
+	* {
+		margin:0;
+		padding:0;
+	}
+    body{
+		margin-top:20px;
+        margin-left: 50px;
+		margin-right: 50px;
+        padding: 0px;
+    }
+    table{width:400px;border:1px solid green;cellspacing:0;cellpadding:0;}
+	
+	th{
+		backgroud-color:blue;
+		border-color:green;
+	}
+	td{
+		backgroud-color:blue;
+	}
+	form {
+		line-height:30px;
+		overflow:hidden;
+	}
+	
+	form input {
+		height:25px;
+		margin-top:10px;
+		margin-left:5px;
+	}
+    /*主面板div样式*/
+    #panel{   
+        width: 980;
+        margin: 1px auto;/*div居中显示*/
+    }
+    /*顶部div样式*/
+    #header{
+        /*设置div的背景图片*/
+        background-image: url(/HiyooWeb/images/5.jpg);
+        height: 500;
+		width:100%;
+    }
+    #header-top{
+        /*设置div的背景图片*/
+        height: 50px;
+		overflow:hidden;
+		
+    }	
+    /*网站logo DIV样式*/
+    #logo-left{
+        width: 500px;
+        height: 50px;
+		float:left;
+		/*display:inline-block;*/
+    }
+	#logo-right{
+        height: 50px;
+		width:700px;
+		float:right;
+		margin-right:5px;
+		/*display:inline-block;*/
+
+    }
+    /*导航主菜单DIV样式*/
+    #menu{
+        height: 32px;
+    }
+    /*无序列表与列表项消除间距*/
+    ul, li{
+        margin: 0px;
+        padding: 0px;
+    }
+    /*列表项样式*/
+    #menu li{
+        float: left; /*所有列表项水平排列*/
+        width: 84px;
+        height: 32px;
+        text-align: center;
+        list-style:none; /*去掉列表项的样式(小圆点)*/
+        line-height: 32px;/*行高*/
+        font-weight: bold;/*字体加粗*/
+        font-size: 13px;
+    }
+   /*超链接样式*/
+    #menu a, #menu a:hover{
+        color: #333333; /*深灰色*/
+        text-decoration: none;/*去下划线*/
+        height: 32px;
+        width: 84px;
+        /*
+        将a标签设置为"块级呈现"，当鼠标移动到
+        a标签上时便于呈现出全尺寸的高亮背景图片
+        */
+        display: block;
+    }
+    /*当鼠标移动到a标签上时的样式*/
+    #menu a:hover{
+        background-image: url(images/nav_bg.png);
+        background-repeat: no-repeat;/*背景图片不平铺*/
+        background-position: center center;/*背景图片水平、垂直居中*/
+    }

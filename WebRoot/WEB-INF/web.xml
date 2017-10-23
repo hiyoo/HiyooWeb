@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>HiyooWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.hiyoo.servlet.LoginAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/loginAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserManager</servlet-name>
+    <servlet-class>com.hiyoo.servlet.UserManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserManager</servlet-name>
+    <url-pattern>/userManager</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SystemMenuAction</servlet-name>
+    <servlet-class>com.hiyoo.servlet.SystemMenuAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SystemMenuAction</servlet-name>
+    <url-pattern>/systemMenuAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserMgrAction</servlet-name>
+    <servlet-class>com.hiyoo.servlet.UserMgrAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserMgrAction</servlet-name>
+    <url-pattern>/userMgrAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>ErrorAction</servlet-name>
+  	<servlet-class>com.hiyoo.servlet.ErrorAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ErrorAction</servlet-name>
+  	<url-pattern>/errorAction</url-pattern>
+  </servlet-mapping>
+</web-app>
